@@ -1,0 +1,54 @@
+section {
+    position: relative;
+}
+
+body {
+    font-family: "Raleway";
+}
+
+#about,
+#portfolio,
+#blog,
+#team,
+#contact {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#about p {
+    font-size: large;
+}
+
+.bg-soft-grey {
+    background-color: rgb(220, 220, 220);
+}
+
+.bg-low-grey {
+    background-color: rgb(200, 200, 200);
+}
+
+header {
+    height: 650px;
+    display: flex;
+    align-items: center;
+}
+
+.img-portfolio {
+    width: 250px;
+    height: 400px;
+    margin: 20px auto;
+}
+
+.card,
+.team {
+    margin: auto;
+}
+
+.contact h1 {
+    padding: 2em 1px;
+}
+
+.copyright {
+    padding: 20px;
+    font-size: medium;
+}
