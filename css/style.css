@@ -93,11 +93,6 @@ header .text-hero {
 
 /* Contact */
 
-#contact .text {
-    display: flex;
-    justify-content: center;
-}
-
 .contact h1 {
     padding: 2em 1px;
 }
@@ -117,6 +112,16 @@ header .text-hero {
     }
 
     .banner-text {
+        font-size: small;
+    }
+    
+    #contact .text {
+        display: flex;
+        justify-content: center;
+    }
+
+    .copyright {
+        padding: 15px;
         font-size: small;
     }
 }
