@@ -1,25 +1,3 @@
-/* Responsive */
-
-@media (max-width: 425px) {
-    #header .hero {
-        margin-top: 50px;
-    }
-
-    .banner-text {
-        font-size: small;
-    }
-}
-
-@media (min-width: 768px) {
-    #header .hero {
-        margin-top: 50px;
-    }
-    .banner-text {
-        font-size: large;
-    }
-}
-
-
 /* feature */
 
 body {
@@ -131,3 +109,23 @@ header .text-hero {
     font-size: medium;
 }
 
+/* Responsive */
+
+@media (max-width: 425px) {
+    #header .hero {
+        margin-top: 50px;
+    }
+
+    .banner-text {
+        font-size: small;
+    }
+}
+
+@media (min-width: 768px) {
+    #header .hero {
+        margin-top: 50px;
+    }
+    .banner-text {
+        font-size: large;
+    }
+}
