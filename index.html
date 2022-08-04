@@ -26,22 +26,22 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#header">Home</a>
+                        <a class="nav-link text-center" href="#header">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
+                        <a class="nav-link text-center" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                        <a class="nav-link text-center" href="#portfolio">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#blog">Blog</a>
+                        <a class="nav-link text-center" href="#blog">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#team">Team</a>
+                        <a class="nav-link text-center" href="#team">Team</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
+                        <a class="nav-link text-center" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -53,17 +53,40 @@
 
         <!-- header -->
         <header class="header" id="header">
-            <div class="container">
-                <div>
-                    <h1 class="text-center">ANDRI KURNIAWAN</h1>
+            <div class="hero">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/Doodle-coffee.jpg" class="d-block w-100 bg-img" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/art-desktop.jpg" class="d-block w-100 bg-img" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <div class="text-center">Web Programmer | Electrical Engineer | Photographer</div>
+                <div class="text-center">
+                    <!-- <img src="img/Doodle-coffee.jpg" alt="background doodle" class="bg-img"> -->
+                    <div class="text-hero">
+                        <h1>ANDRI KURNIAWAN</h1>
+                        <div class="banner-text">Web Programmer | Electrical Engineer | Photographer</div>
+                    </div>
+                </div>
             </div>
         </header>
         <!-- end header -->
 
         <!-- about -->
-        <section class="about bg-soft-grey" id="about">
+        <section class="about bg-dark text-white" id="about">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -73,7 +96,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-12 col-lg-12">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
                         <p>
                             Andri Kurniawan atau Andri atau Wawan (lahir 04 april 2001) adalah seorang pemuda asal
                             Indonesia.
@@ -93,29 +116,29 @@
         <!-- end about -->
 
         <!-- portfolio -->
-        <section class="portfolio" id="portfolio">
+        <section class="portfolio bg-dark text-white" id="portfolio">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
                         <div class="title text-center">
                             <h2>Portfolio</h2>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+                    <div class="col-xxl-4 col-lg-4 col-md-6 col-sm-12 text-center">
                         <a href="img/portfolio/Keyboard.jpg" target="_blank">
                             <img src="img/portfolio/Keyboard.jpg" class="img-portfolio" alt="Keyboard picture"
                                 title="Photo by andri kurniawan">
                         </a>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+                    <div class="col-xxl-4 col-lg-4 col-md-6 col-sm-12 text-center">
                         <a href="img/portfolio/watu.jpg" target="_blank">
                             <img src="img/portfolio/watu.jpg" class="img-portfolio" alt="Foto batu"
                                 title="Photo by andri kurniawan">
                         </a>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+                    <div class="col-xxl-4 col-lg-4 col-sm-12 text-center">
                         <a href="img/portfolio/zebracross.jpg" target="_blank">
                             <img src="img/portfolio/zebracross.jpg" class="img-portfolio" alt="Zebracross"
                                 title="Photo by andri kurniawan">
@@ -127,22 +150,20 @@
         <!-- end portfolio -->
 
         <!-- blog -->
-        <section class="blog bg-soft-grey" id="blog">
+        <section class="blog bg-dark text-white" id="blog">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12">
+                    <div class="col-xxl-12 col-lg-12 col-md-12 col-sm-12">
                         <div class="title text-center">
                             <h2>Blog</h2>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-4 col-md-12 mb-4 text-center">
+                    <div class="col-xxl-4 col-lg-4 col-md-6 col-sm-12 mb-4 text-center">
                         <div class="card" style="width: 18rem;">
-                            <a href="https://unsplash.com/photos/zTqpgdzteyc?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink"
-                                target="_blank">
-                                <img src="img/blog/building.jpg" class="card-img-top" alt="building"
-                                    title="Photo by Adrian Cogua on Unsplash">
+                            <a href="#" target="_blank">
+                                <img src="img/blog/building.jpg" class="card-img-top" alt="building">
                             </a>
                             <div class="card-body">
                                 <p class="card-text">Bekerja sebagai kepala teknikal instalasi listrik di salah satu
@@ -150,12 +171,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-12 mb-4 text-center">
+                    <div class="col-xxl-4 col-lg-4 col-md-6 col-sm-12 mb-4 text-center">
                         <div class="card" style="width: 18rem;">
-                            <a href="https://unsplash.com/photos/lniazJqPXTI?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink"
-                                target="_blank">
-                                <img src="img/blog/lift.jpg" class="card-img-top" alt="lift"
-                                    title="Photo by Trae Gould on Unsplash">
+                            <a href="#" target="_blank">
+                                <img src="img/blog/lift.jpg" class="card-img-top" alt="lift">
                             </a>
                             <div class="card-body">
                                 <p class="card-text">Magang disalah satu perusahaan yang bergerak dibidang teknik
@@ -164,12 +183,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-12 mb-4 text-center">
+                    <div class="col-xxl-4 col-lg-4 col-sm-12 mb-4 text-center">
                         <div class="card" style="width: 18rem;">
-                            <a href="https://unsplash.com/photos/3GZi6OpSDcY?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink"
-                                target="_blank">
-                                <img src="img/blog/electrical.jpg" class="card-img-top" alt="electrical"
-                                    title="Photo by Nicolas Thomas on Unsplash">
+                            <a href="#" target="_blank">
+                                <img src="img/blog/electrical.jpg" class="card-img-top" alt="electrical">
                             </a>
                             <div class="card-body">
                                 <p class="card-text">Kompeten dalam Uji Sertifikasi Profesi yang diselenggarakan oleh
@@ -183,7 +200,7 @@
         <!-- end blog -->
 
         <!-- team -->
-        <section class="team" id="team">
+        <section class="team bg-dark text-white" id="team">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -195,18 +212,18 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-12 text-center item">
                         <img src="img/Logo.png" alt="Anggito" title="Anggito">
-                        <div class="desc-name bg-low-grey">Anggito</div>
-                        <div class="text-muted bg-soft-grey">Manager</div>
+                        <div class="desc-name">Anggito</div>
+                        <div class="text-black bg-soft-grey rounded-pill">Manager</div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12 text-center item">
                         <img src="img/Logo.png" alt="DAP" title="DAP">
-                        <div class="desc-name bg-low-grey">DAP</div>
-                        <div class="text-muted bg-soft-grey">Editor</div>
+                        <div class="desc-name">DAP</div>
+                        <div class="text-black bg-soft-grey rounded-pill">Editor</div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12 text-center item">
                         <img src="img/Logo.png" alt="capina" title="capina">
-                        <div class="desc-name bg-low-grey">Capina</div>
-                        <div class="text-muted bg-soft-grey">Secretary</div>
+                        <div class="desc-name">Capina</div>
+                        <div class="text-black bg-soft-grey rounded-pill">Secretary</div>
                     </div>
                 </div>
             </div>
@@ -214,14 +231,14 @@
         <!-- end team -->
 
         <!-- contact -->
-        <section class="contact bg-soft-grey" id="contact">
+        <section class="contact bg-dark text-white" id="contact">
             <div class="container">
                 <form>
                     <div class="row">
-                        <div class="col-lg-4 col-md-8 col-sm-12">
+                        <div class="col-xxl-3 col-lg-4 col-md-4 col-sm-12 text">
                             <h1>Contact Us</h1>
                         </div>
-                        <div class="col-lg-8 col-md-8 col-sm-12">
+                        <div class="col-xxl-9 col-lg-8 col-md-8 col-sm-12">
                             <div class="form-group">
                                 <input type="text" class="form-control form-control-lg mb-3" name="name" id="name"
                                     placeholder="Your Name" required>
@@ -245,7 +262,7 @@
         <!-- end contact -->
 
         <!-- footer -->
-        <footer>
+        <footer class="bg-secondary text-white">
             <div class="row">
                 <div class="copyright text-center">
                     &copy 2022 | All right reserved
